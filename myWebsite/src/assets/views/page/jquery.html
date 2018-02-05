@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="intro.js">
+    </script>
+</head>
+  <!--<div id =  "hello">HELLO</div>-->
+  <!--<div class =  "hello">1</div>-->
+  <!--<div class =  "hello">2</div>-->
+  <!--<div class =  "htmlbefore">2</div>-->
+    <!--<script>-->
+      <!--alert($("#hello").hasClass('hello'));-->
+      <!--$("#hello").hasClass('hello').html("goodbye");-->
+      <!--$('.hello').html('<span>change this</span>');-->
+      <!--$(".hello").after('<span>after</span>').insertBefore(('html'))-->
+    <!--</script>-->
+
+<script>
+  var foodList = $(['food','candy']);
+
+  var candy = '<li>candy'
+  for(var i = 0; i<foodList.length; i++) {
+    var food = $("<li>");
+    var f1 = foodList[1];
+    food.append(f1);
+    foodList.prepend(food)
+  }
+
+</script>
+
+<body>
+
+</body>
+</html>
