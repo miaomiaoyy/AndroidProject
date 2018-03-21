@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "65214841496",
+    "firebase_url": "https://neuinstagram-c867a.firebaseio.com",
+    "project_id": "neuinstagram-c867a",
+    "storage_bucket": "neuinstagram-c867a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65214841496:android:e02aad8e0c9dc5a0",
+        "android_client_info": {
+          "package_name": "edu.northeastern.ashish.instagramneu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65214841496-am0b59agv2i4bh97s7a3in8dp1rpsc9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASLf6NNVrFKmHWi1qNScjVgVp4LuPD_kQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
