@@ -10,15 +10,19 @@
         android:id="@+id/streamBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press To Record"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="161dp" />
+        android:layout_marginTop="65dp"
+        android:text="@string/press_to_record"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mTvLog" />
 
     <TextView
         android:id="@+id/mTvLog"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="77dp" />
+        android:layout_height="0dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/please_press_to_record"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -52,12 +52,13 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.fileBtn)
     public void fileMode() {
+        startActivity(new Intent(this, FileActivity.class));
 
     }
 
     @OnClick(R.id.StreamBtn)
     public void streamMode() {
-
+        startActivity(new Intent(this, StreamActivity.class));
     }
 
     @Override

@@ -6,5 +6,7 @@
     <string name="presstosay">press to say</string>
     <string name="file">file</string>
     <string name="stream">stream</string>
+    <string name="please_press_to_record">Please press to record</string>
+    <string name="press_to_record">Press To Record</string>
 
 </resources>
